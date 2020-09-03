@@ -1,4 +1,5 @@
-// export Class Usuario{
-//     nombre: string;
-//     clave: string;
-// } 
+export class Usuario{
+    
+    nombre: string;
+    clave: string;
+} 
