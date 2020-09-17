@@ -1,0 +1,29 @@
+<!-- <p>ejerclase01 works!</p> -->
+
+<!-- Ejercicios clase 01 27/08/2020 -->
+<h1>Ejercicios clase 01</h1>
+<div>
+  <div class="form-group card">
+    <!-- <label>Edad Uno</label> -->
+    <input type="number" placeholder="Edad" class="form-control" [(ngModel)]="edadUno">
+
+    <!-- <label>Edad Dos</label> -->
+    <input type="number" placeholder="Edad" class="form-control" [(ngModel)]="edadDos">
+
+    <button class="btn btn-primary" (click)="Calcular()">Calcular</button> 
+  </div>
+
+
+  <div class="form-group">
+    <p>Suma {{suma}}</p>
+    <!-- <input type="password" class="form-control" [(ngModel)]="suma"> -->
+    <p>Promedio {{promedio}}</p>
+    <!-- <input type="text" class="form-control" [(ngModel)]="promedio"> -->
+
+    <button class="btn btn-danger" (click)="Limpiar()">Limpiar cuadros de texto</button> 
+    <!-- <button class="btn btn-danger" type="reset">Limpiar cuadros de texto</button>  -->
+  </div>
+</div>
+
+<br>
+<a routerLink="/">Bienvenido</a>

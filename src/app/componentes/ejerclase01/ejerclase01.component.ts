@@ -1,16 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-bienvenido',
-  templateUrl: './bienvenido.component.html',
-  styleUrls: ['./bienvenido.component.css']
+  selector: 'app-ejerclase01',
+  templateUrl: './ejerclase01.component.html',
+  styleUrls: ['./ejerclase01.component.css']
 })
-export class BienvenidoComponent implements OnInit {
-  title = 'cicloadw';
-
-  public ejemplo = 'Hola Mundo';
-  public ejemplo2 = 'Hola Mundo2';
-
+export class Ejerclase01Component implements OnInit {
   public edadUno;
   public edadDos;
   public suma;
@@ -21,9 +16,6 @@ export class BienvenidoComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  PruebaClick() {
-    this.ejemplo2 = 'Ejecutamos el evento!!!';
-  }
   Calcular() {
     // this.suma = 'SUMA';
     // this.promedio = 'PROMEDIO';
